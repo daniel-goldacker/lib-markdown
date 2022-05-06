@@ -26,6 +26,6 @@ No terminal, ao executar os comandos abaixo:
 | ------ | ------ |
 |`npm run cli` | Retorna uma lista com as URLs econtradas dentro do arquivo texto.md.|
 |`npm run cli validar` | Retorna uma lista com o status code das URLs econtradas dentro do arquivo texto.md.| 
-|`npm run test` | Retorna a execução dos teste de funcionamento definidos para a biblioteca lib-markdown|
+|`npm run test` | Retorna a execução dos teste definidos para a biblioteca lib-markdown|
 
 

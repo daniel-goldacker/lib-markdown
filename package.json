@@ -1,0 +1,47 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "preferGlobal": true,
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "cli": "node cli.js ./arquivos/texto.md"
+  },
+  "bugs": {
+    "url" : "https://github.com/daniel-goldacker/lib-markdown",
+    "email" : "daniel-goldacker@hotmail.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.7",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.4.5",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.5.1",
+    "jest-nyancat-reporter": "^2.0.0"
+  },
+  "jest": {
+    "transform": {},
+    "reporters": [
+      [
+        "jest-nyancat-reporter",
+        {
+          "suppressErrorReporter": false
+        }
+      ]
+    ]
+  }
+}
